@@ -1,0 +1,60 @@
+ 
+
+*{margin: 0;
+font-family: poppins;}
+.top{
+    background-color: #fff9ea; 
+
+}
+   .toimom{
+    display: flex;
+  justify-content: space-between;
+height: 90px;     align-items: center;
+margin-left: 100px;
+margin-right: 100px;
+
+   }
+   ul >li{
+    list-style: none;
+}
+ul a{ 
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.hasan{
+    display: flex;
+    gap:30px;
+}
+.khan{
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #ffcb45;
+  border: none;
+   font-weight: 600; 
+}
+.kappa{
+    
+    display: flex;
+    gap: 30px;
+    align-items: center;
+   
+}
+/* hero sectio */
+
+.shafi{
+    background-image:url(../image/shapes.png) ;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-parent{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.lol{
+    display: flex;
+    align-items: center;
+}
