@@ -2,10 +2,13 @@
 
 *{margin: 0;
 font-family: poppins;}
+
 .top{
     background-color: #fff9ea; 
 
 }
+
+
    .toimom{
     display: flex;
   justify-content: space-between;
@@ -44,10 +47,11 @@ ul a{
 
 .shafi{
     background-image:url(../image/shapes.png) ;
-    height: 600px;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+ 
 }
 .hero-parent{
    
@@ -57,4 +61,21 @@ ul a{
 .lol{
     display: flex;
     align-items: center;
+}
+
+
+
+
+
+/* search containe */
+
+.first{
+    margin-top: 30px;
+   
+}
+.pic{
+ 
+    display: flex;
+    gap: 140px;
+  justify-content: center;
 }
