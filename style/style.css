@@ -2,6 +2,9 @@
 
 *{margin: 0;
 font-family: poppins;}
+body{
+    overflow-x: hidden;
+}
 
 .top{
     background-color: #fff9ea; 
@@ -78,4 +81,55 @@ ul a{
     display: flex;
     gap: 140px;
   justify-content: center;
+  margin-top: 32px;
 }
+.popular{
+    margin-top: 80px;
+}
+/* food image part-1 */
+.desing{
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px;
+  
+}
+.pop{
+    display: flex;
+    gap: 30px; 
+   
+}
+.taka{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    align-items: center;
+}
+
+/* food image part-2 */
+
+.next-image{
+    position: relative;
+   top:-35px;
+}
+.review{
+    display: flex;
+}
+
+/* <!-- background image part new part --> */
+ .meem{
+    background-image: url(../image/pexels-photo-1099680.jpeg ); height: 400px; width: 900px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin-left: 200px;
+border-radius: 30px;
+}
+
+
+.arobi{
+    background-image: url(../image/bg-image.png);
+    border: 2px solid #f1f1f1;
+    margin-left: 50px;
+}
+  
